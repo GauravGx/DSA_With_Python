@@ -3,6 +3,9 @@ class Stack:
         self.peek = -1
         self.S1 = []
 
+    def is_empty(self):
+        return len(self.S1) == 0
+
     def push(self, data):
         self.S1.append(data)
         self.peek += 1
