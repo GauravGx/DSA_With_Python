@@ -2,7 +2,7 @@ class Node:
     def __init__(self,data=None,next =None):
         self.data = data
         self.next = next
-
+                               # Node for Stack
 
 
 class Stack:
